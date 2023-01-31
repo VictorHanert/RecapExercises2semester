@@ -7,6 +7,6 @@ public class Exercise3 {
 
   //return whether it is Friday (true) or not (false)
   public boolean isItFriday(LocalDate date) {
-    return true;
+    return date.getDayOfWeek().getValue() == 5;
   }
 }
